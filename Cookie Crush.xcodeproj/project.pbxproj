@@ -13,7 +13,6 @@
 		7C22F0A41A77A48E00C0725E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C22F0A21A77A48E00C0725E /* Main.storyboard */; };
 		7C22F0A61A77A48E00C0725E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C22F0A51A77A48E00C0725E /* Images.xcassets */; };
 		7C22F0A91A77A48E00C0725E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C22F0A71A77A48E00C0725E /* LaunchScreen.xib */; };
-		7C22F0B51A77A48E00C0725E /* Cookie_CrushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C22F0B41A77A48E00C0725E /* Cookie_CrushTests.swift */; };
 		7C22F0BF1A77A49D00C0725E /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7C22F0BE1A77A49D00C0725E /* Sprites.atlas */; };
 		7C22F0C11A77A5B000C0725E /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C22F0C01A77A5B000C0725E /* Cookie.swift */; };
 		7C22F0C31A77AA9800C0725E /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C22F0C21A77AA9800C0725E /* Array2D.swift */; };
@@ -57,7 +56,6 @@
 		7C22F0A81A77A48E00C0725E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7C22F0AE1A77A48E00C0725E /* Cookie CrushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie CrushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C22F0B31A77A48E00C0725E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C22F0B41A77A48E00C0725E /* Cookie_CrushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_CrushTests.swift; sourceTree = "<group>"; };
 		7C22F0BE1A77A49D00C0725E /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		7C22F0C01A77A5B000C0725E /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		7C22F0C21A77AA9800C0725E /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		7C22F0B11A77A48E00C0725E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7C22F0B41A77A48E00C0725E /* Cookie_CrushTests.swift */,
 				7C22F0B21A77A48E00C0725E /* Supporting Files */,
 			);
 			name = Tests;
@@ -356,7 +353,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C22F0B51A77A48E00C0725E /* Cookie_CrushTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
